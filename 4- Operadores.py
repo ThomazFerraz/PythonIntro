@@ -24,17 +24,25 @@ if 'a' in nome: # Caso a variável nome contenha a string 'a'
 if 'ho' in nome: # Caso a variável nome contenha a string 'ho'
     print('Existe a string "ho" no nome')
 
-if idade >= 18: # Caso a idade seja maior ou igual a 18
-    print('Maior de idade')
-
-if idade < 18: # Caso a idade seja menor do que 18
-    print('Menor de idade')
-
 if not vacinado: # Caso variavel vacinado seja False
     print('Não pode viajar sem as vacinas!')
 
 if astronauta: # Caso variavel astronauta seja True
     print('Temos um astronauta por aqui!')
+
+
+
+
+if idade >= 18: # Caso a idade seja maior ou igual a 18
+    print('Maior de idade')
+
+elif idade < 18: # Caso a idade seja menor do que 18
+    print('Menor de idade')
+
+else:
+    print('Idade inválida!')
+
+
 
 
 # também é possivel criar uma condicional IF com mais de uma condição, utilizando AND ou OR.
