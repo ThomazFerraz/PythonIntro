@@ -27,8 +27,14 @@ if 'ho' in nome: # Caso a variável nome contenha a string 'ho'
 if not vacinado: # Caso variavel vacinado seja False
     print('Não pode viajar sem as vacinas!')
 
+
+
+
 if astronauta: # Caso variavel astronauta seja True
     print('Temos um astronauta por aqui!')
+
+else:
+    print(nome + ' não vai para o espaço...')
 
 
 
