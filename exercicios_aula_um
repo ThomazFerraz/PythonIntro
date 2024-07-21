@@ -1,0 +1,129 @@
+# - Criar duas variáveis do tipo INT
+# - Atribuir valores numéricos a elas
+# - Somá - las
+# - "printar" o resultado.
+
+
+
+# Criar duas varíaveis do tipo INT
+
+mensalidade_um = 33
+
+multa = 35
+
+resultado = mensalidade_um + multa
+
+#Converter variável resultado de INT para STR
+resultado_texto = str(resultado)
+
+print('Resultado: '+resultado_texto)
+
+
+# EXERCICIO 2:
+
+# Criar duas variáveis do tipo STR
+# Juntá - las
+# printar o resultado como: 
+# "MEU NOME É FULANO E MEU SOBRENOME É CICLANO"
+
+
+nome = "Meu nome é Thomaz "
+sobrenome = 'e meu sobrenome é Massoni'
+
+nome_completo = nome + sobrenome
+
+print(nome_completo)
+
+
+
+
+
+# Exercicio 3
+
+
+valor_um ='35'
+valor_dois = '35'
+
+valor_um_numerico = int(valor_um)
+valor_dois_numerico = int(valor_dois)
+
+soma = valor_um_numerico + valor_dois_numerico
+
+print(soma)
+
+
+
+# EXERCICIO 4
+
+
+# - Variavel INT de valor IMPAR
+# - Dividi-la por 2
+# - printar o RESULTADO
+
+
+variavel_impar = 7
+
+resultado = variavel_impar / 2
+
+print(resultado)
+resultado_inteiro = int(resultado)
+
+print(resultado_inteiro)
+
+
+# EXERCICIO 5
+
+# VAMOS CRIAR UM PROGRAMA SIMPLES
+
+# - PEGAR O NOME DO USUARIO
+# - PEGAR IDADE DO USUARIO
+# - PRINTAR O NOME DE USUARIO E A IDADE
+# - DESCUBRA O ANO QUE O USUÁRIO NASCEU SEM PERGUNTAR AO USUARIO
+
+# - SE O USUARIO NASCEU DEPOIS DE 2000:
+#   - MOSTRAR A FRASE: 'VOCE É MUITO JOVEM!'
+
+# - CASO CONTRARIO, MOSTRAR A FRASE:
+#    - MOSTRAR A FRASE: 'PODE SENTAR NO MEU LUGAR EU AINDA SOU UM PROGRAMA JOVEM'
+
+
+nome = input('INSIRA SEU NOME') # str
+idade = input('INSIRA SUA IDADE') # str
+
+print('Nome do usuário: ' + nome + ', idade: ' + idade)
+
+ano_atual = 2024
+
+idade_numero = int(idade)
+
+nascimento = ano_atual - idade_numero  # int
+
+nascimento_texto = str(nascimento)
+
+print('E o ano de nascimento do usuário é ' + nascimento_texto)
+
+if nascimento > 2000:
+    print('VOCE É MUITO JOVEM!')
+
+else:
+    print('PODE SENTAR NO MEU LUGAR EU AINDA SOU UM PROGRAMA JOVEM')
+
+
+# PROXIMA AULA:
+
+# CONTEÚDO NOVO:
+# - CONDICIONAL (IF E ELSE)
+# - INDENTAÇÃO
+
+
+# REVISAO:
+# - VARIÁVEIS
+# - CONVERSÃO DE VARIÁVEIS
+# - CONCATENAÇÃO
+    
+# CONTATO THOMAZ: 11980910540
+
+
+
+
+
