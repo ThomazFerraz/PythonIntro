@@ -34,9 +34,18 @@ def confirmar_dados(nome, idade, rua, bairro, cidade):
     print(f'Idade: {idade} anos;')
     print(f'Endereço completo: {rua}, {bairro}, {cidade}')
 
-    resposta = bool(input('Confirme os dados acima. Digite "True" se estiver correto ou "False" se algo estiver errado. Resposta: '))
+    resposta = input('Confirme os dados acima. Digite "True" se estiver correto ou "False" se algo estiver errado. Resposta: ')
+    confirmacao = False
 
-    return resposta
+    if resposta.lower() == 'true':
+        confirmacao = True
+
+    else:
+        confirmacao = False
+
+    return confirmacao
+
+
 
 
 def mensagem_confirmacao(nome):

@@ -16,7 +16,14 @@ while not cadastro_completo:
     print(f'Idade: {idade} anos;')
     print(f'Endereço completo: {rua}, {bairro}, {cidade}')
 
-    confirmacao = bool(input('Confirme os dados acima. Digite "True" se estiver correto ou "False" se algo estiver errado. Resposta: '))
+    resposta = (input('Confirme os dados acima. Digite "True" se estiver correto ou "False" se algo estiver errado. Resposta: '))
+    confirmacao = False
+
+    if resposta.lower() == 'true':
+        confirmacao = True
+
+    else:
+        confirmacao = False
 
     if confirmacao:
         print(f'Obrigado pela confirmação, {nome}. Em breve você receberá uma carta com as informações para seguir seu procedimento...')
