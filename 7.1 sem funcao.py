@@ -21,13 +21,11 @@ while not cadastro_completo:
 
     if resposta.lower() == 'true':
         confirmacao = True
-
     else:
         confirmacao = False
 
     if confirmacao:
         print(f'Obrigado pela confirmação, {nome}. Em breve você receberá uma carta com as informações para seguir seu procedimento...')
         cadastro_completo = True
-
     else:
         print(f'Que pena, {nome}, vamos corrigir seus dados: \n')
